@@ -5,10 +5,10 @@ My customized version of the awesome-chatgpt-prompts repository.
 A collection of ChatGPT prompts tailored for my needs.
 
 ## Live Demo
-[View Site](https://your-username.github.io/awesome-chatgpt-prompts)
+[View Site](https://logicaldrive.github.io/awesome-chatgpt-prompts)
 
 ## Installation
-1. Clone the repo: `git clone https://github.com/your-username/awesome-chatgpt-prompts.git`
+1. Clone the repo: `git clone https://github.com/logicaldrive/awesome-chatgpt-prompts.git`
 2. Open `index.html` in a browser.
 
 ## Screenshots
