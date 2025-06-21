@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prompt Table</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f4f4f4; }
+  </style>
+</head>
+<body>
+  <h1>📄 All Prompts (CSV View)</h1>
+  <p>This is a quick view of the CSV data file. <a href="prompts.csv" download>Download CSV</a></p>
+  <table id="csv-table"></table>
+
+  <script>
+    fetch('prompts.csv')
+      .then(res => res.text())
+      .then(csv => {
+        const rows = csv.trim().split('\n').map(row => row.split(','));
+        const table = document.getElementById('csv-table');
+        table.innerHTML = rows.map((row, i) =>
+          '<tr>' + row.map(cell =>
+            i === 0 ? `<th>${cell}</th>` : `<td>${cell}</td>`
+          ).join('') + '</tr>'
+        ).join('');
+      });
+  </script>
+</body>
+</html>
