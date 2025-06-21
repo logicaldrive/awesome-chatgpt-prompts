@@ -1,3 +1,8 @@
+---
+layout: page
+title: Business Prompts
+---
+
 # 🧠 Lon's Business Prompts
 
 A collection of my favorite AI prompts for business, marketing, and automation.
