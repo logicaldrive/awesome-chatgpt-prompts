@@ -1,7 +1,15 @@
-# 👋 Welcome to Lon's Prompt Vault
+# Awesome ChatGPT Prompts
+My customized version of the awesome-chatgpt-prompts repository.
 
-This site contains my personal fork of the Awesome ChatGPT Prompts repo, along with custom AI prompt packs I'm building and sharing.
+## Description
+A collection of ChatGPT prompts tailored for my needs.
 
-Explore all prompts, remix them, and steal the good stuff.
+## Live Demo
+[View Site](https://your-username.github.io/awesome-chatgpt-prompts)
 
-> Built with ❤️ and Docsify
+## Installation
+1. Clone the repo: `git clone https://github.com/your-username/awesome-chatgpt-prompts.git`
+2. Open `index.html` in a browser.
+
+## Screenshots
+![Screenshot](assets/screenshot.png)
