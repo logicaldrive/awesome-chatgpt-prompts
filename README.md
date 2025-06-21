@@ -5,4 +5,3 @@ This site contains my personal fork of the Awesome ChatGPT Prompts repo, along w
 Explore all prompts, remix them, and steal the good stuff.
 
 > Built with ❤️ and Docsify
-
